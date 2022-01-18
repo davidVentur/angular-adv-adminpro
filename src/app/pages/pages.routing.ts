@@ -16,27 +16,33 @@ const routes: Routes = [
       {
         path: '',
         component: DashboardComponent,
+        data: { titulo: 'Dashboard' },
       },
       {
         path: 'progress',
         component: ProgressComponent,
+        data: { titulo: 'ProgressBar' },
       },
       {
         path: 'grafica1',
         component: Grafica1Component,
+        data: { titulo: 'Grafica #1' },
       },
       {
         path: 'account-settings',
         component: AccountSettingsComponent,
+        data: { titulo: 'Ajustes de cuenta' },
       },
       {
         path: 'promesas',
         component: PromesasComponent,
+        data: { titulo: 'Promesas' },
       },
       {
         path: 'rxjs',
         component: RxjsComponent,
-      }
+        data: { titulo: 'RxJs' },
+      },
     ],
   },
 ];
